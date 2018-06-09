@@ -298,6 +298,10 @@ PRODUCT_PACKAGES += \
 	android.hardware.vibrator@1.0-impl \
 	android.hardware.vibrator@1.0-service
 
+# Vendor security patch level
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.lineage.build.vendor_security_patch=2019-07-01
+
 # Wifi
 PRODUCT_PACKAGES += \
 	dhcpcd.conf \
