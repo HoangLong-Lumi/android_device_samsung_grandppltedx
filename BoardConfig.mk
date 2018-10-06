@@ -122,6 +122,10 @@ BOARD_MKBOOTIMG_ARGS := \
 	--board $(BOARD_NAME) \
 	--dt $(TARGET_PREBUILT_DTB)
 
+# Legacy BLOB Support
+TARGET_PROCESS_SDK_VERSION_OVERRIDE += \
+    /system/vendor/bin/hw/rild=27
+
 # MTK
 BOARD_HAS_MTK_HARDWARE := true
 BOARD_USES_MTK_HARDWARE := true
