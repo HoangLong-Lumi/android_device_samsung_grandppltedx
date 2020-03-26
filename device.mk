@@ -74,6 +74,12 @@ TARGET_SCREEN_WIDTH := 540
 
 $(call inherit-product, frameworks/native/build/phone-hdpi-dalvik-heap.mk)
 
+# Dex
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    TrebuchetQuickStep \
+    Settings \
+    SystemUI
+
 # Graphics
 PRODUCT_PACKAGES += \
 	libion \
