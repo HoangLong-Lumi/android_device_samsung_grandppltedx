@@ -171,7 +171,9 @@ PRODUCT_PACKAGES += \
 	mount.ntfs
 
 # Overlay
-DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(DEVICE_PATH)/overlay \
+    $(DEVICE_PATH)/overlay-lineage
 
 # Platform
 PRODUCT_PACKAGES += \
