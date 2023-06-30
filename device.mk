@@ -52,7 +52,6 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 # Configs
 #-- Audio
 PRODUCT_PACKAGES += \
-	audio.a2dp.default \
 	audio.usb.default \
 	audio.r_submix.default \
 	audio_policy.default \
