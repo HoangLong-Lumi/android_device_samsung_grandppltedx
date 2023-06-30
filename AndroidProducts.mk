@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/lineage_grandppltedx.mk
+	$(LOCAL_DIR)/aosp_grandppltedx.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_grandppltedx-user \
-    lineage_grandppltedx-userdebug \
-    lineage_grandppltedx-eng
+    aosp_grandppltedx-user \
+    aosp_grandppltedx-userdebug \
+    aosp_grandppltedx-eng
